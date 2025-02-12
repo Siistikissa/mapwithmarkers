@@ -25,7 +25,7 @@ export default function Map(props) {
         >
             {markers.map(marker =>  
                 <Marker
-                    key={marker.id} //empty
+                    key={marker.id}
                     title="My marker"
                     coordinate={{latitude: marker.coords.latitude, longitude: marker.coords.longitude}}
                 />
